@@ -1,0 +1,90 @@
+.typography {
+  font-size: 0.8rem;
+  /* Base styles */
+}
+
+/* Styles for h1 */
+.h1Small {
+  font-size: 1.2rem;
+}
+
+.h1Medium {
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+}
+
+.h1Large {
+  font-size: 4.5rem;
+  line-height: 4.5rem;
+}
+
+/* Styles for h2 */
+.h2Small {
+  font-size: 1.1rem;
+}
+
+.h2Medium {
+  font-size: 1.4rem;
+}
+
+.h2Large {
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+/* Styles for h3 */
+.h3Small {
+  font-size: 1rem;
+}
+
+.h3Medium {
+  font-size: 1.125rem;
+  line-height: 1.563rem;
+}
+
+.h3Large {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+/* Styles for h3 */
+.h4Small {
+  font-size: 1rem;
+}
+
+.h4Medium {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.h4Large {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+/* Styles for paragraphs */
+.pSmall {
+  font-size: 0.8rem;
+  line-height: 1.75rem;
+}
+
+.pMedium {
+  font-size: 1rem;
+}
+
+.pLarge {
+  font-size: 1.2rem;
+}
+
+/* Styles for spans */
+.spanSmall {
+  font-size: 0.8rem;
+}
+
+.spanMedium {
+  font-size: 1rem;
+}
+
+.spanLarge {
+  font-size: 1.2rem;
+}

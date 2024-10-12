@@ -1,0 +1,49 @@
+.innerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+}
+
+.colLeft {
+  width: 65%;
+  padding-top: 7rem;
+}
+
+.colRight {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  max-width: 546px;
+}
+
+.lead {
+  padding-left: 1.6rem;
+}
+
+.leadLink {
+  font-weight: var(--fw-bold);
+}
+
+.leadLink:hover {
+  color: var(--clr-secondary-dark);
+}
+
+.demoFieldContainer {
+  margin: 3rem 0 1rem 0;
+}
+
+.phoneIllustrationImg {
+  filter: drop-shadow(25px 25px 20px #1b262f1f);
+}
+
+.backgoundPatternImg {
+  position: absolute;
+  top: -325px;
+  right: -27%;
+  z-index: -1;
+}

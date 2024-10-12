@@ -1,0 +1,161 @@
+:root {
+  --clr-bg-main: #edf3f8;
+  --clr-bg-dark: #1b262f;
+  --clr-water-white: #fbfcfe;
+  --clr-primary: #ba4270;
+  --clr-primary-active: #da6d97;
+  --clr-secondary-main: #36536b;
+  --clr-secondary-light: #6c8294;
+  --clr-secondary-dark: #1b262f;
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-bold: 700;
+  --fw-extra-bold: 900;
+
+  --ease-regular: ease 0.3s;
+}
+
+/**************************************
+  CSS Reset
+**************************************/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+input {
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/**************************************
+  Global Styles
+**************************************/
+body {
+  font-family: "Public Sans", sans-serif;
+  font-size: 0.938rem;
+  line-height: 1.75rem;
+  background-color: var(--clr-bg-main);
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+  font-family: "DM Serif Display", serif;
+}
+
+h3,
+p {
+  font-family: "Public Sans", sans-serif;
+}
+
+h1 {
+  font-size: 4.5rem;
+  line-height: 4.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 6.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  line-height: 3rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+p {
+  font-size: 0.938rem;
+  line-height: 1.85rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--clr-secondary-main);
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+  font-weight: var(--fw-regular);
+}
+
+
+p {
+  color: var(--clr-secondary-light);
+}
+
+input::placeholder {
+  color: var(--clr-secondary-main);
+  opacity: 0.5;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  transition: all var(--ease-regular);
+}
+
+a {
+  transition: color var(--ease-regular);
+}

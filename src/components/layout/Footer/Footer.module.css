@@ -1,0 +1,50 @@
+.main {
+  /* padding: 2rem 0; */
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--clr-secondary-dark);
+  position: relative;
+  overflow: hidden;
+}
+
+.innerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.colLeft, 
+.colRight {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4rem;
+}
+
+.colLeft {
+  gap: 4rem;
+}
+
+.colRight {
+  gap: 2rem;
+}
+
+.colRight svg {
+  position: relative;
+  z-index: 2;
+}
+
+.colRight svg:hover path {
+  fill: var(--clr-primary-active);
+  transition: all var(--ease-regular);
+}
+
+.backgoundPatternImg {
+  position: absolute;
+  top: -90%;
+  right: -20%;
+  z-index: 1;
+}

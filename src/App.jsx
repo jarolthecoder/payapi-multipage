@@ -1,4 +1,5 @@
 import { Footer, Header } from "./components/layout"
+import { CallToActionBar } from "./components/shared"
 import { AppRouter } from "./router/AppRouter"
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header />
         <AppRouter />
+      <CallToActionBar/>
       <Footer />
     </>
   )

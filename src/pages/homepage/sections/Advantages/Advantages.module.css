@@ -1,0 +1,23 @@
+.main {
+  position: relative;
+  padding: 75px 0;
+}
+
+.innerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.advantageBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.advantageIcon {
+  margin-bottom: 2rem;
+}

@@ -1,10 +1,15 @@
+import { Advantages, EasyToImplement, Hero, SimpleUI, WhoWeWorkWith } from "./sections";
 
 const Homepage = () => {
   return (
-    <div>
-      Homepage
-    </div>
-  )
-}
+    <main>
+      <Hero />
+      <WhoWeWorkWith />
+      <EasyToImplement />
+      <SimpleUI />
+      <Advantages />
+    </main>
+  );
+};
 
-export default Homepage
+export default Homepage;

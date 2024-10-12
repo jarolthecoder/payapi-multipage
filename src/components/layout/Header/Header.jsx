@@ -1,14 +1,18 @@
-
-import { Navbar } from '@/components/shared'
-import styles from './Header.module.css'
-import { Logo, PrimaryButton } from '@/components/ui'
+import { Navbar } from "@/components/shared";
+import { ButtonPrimary, Logo } from "@/components/ui";
+import { Container } from "..";
+import styles from "./Header.module.css";
 
 export const Header = () => {
   return (
     <header className={styles.main}>
-      <Logo />
-      <Navbar />
-      <PrimaryButton />
+      <Container className={styles.innerContainer}>
+        <div className={styles.colLeft}>
+          <Logo />
+          <Navbar />
+        </div>
+        <ButtonPrimary>Schedule a Demo</ButtonPrimary>
+      </Container>
     </header>
-  )
-}
+  );
+};

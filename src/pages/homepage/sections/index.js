@@ -1,0 +1,5 @@
+export * from './Hero/Hero'
+export * from './WhoWeWorkWith/WhoWeWorkWith'
+export * from './EasyToImplement/EasyToImplement'
+export * from './SimpleUI/SimpleUI'
+export * from './Advantages/Advantages'

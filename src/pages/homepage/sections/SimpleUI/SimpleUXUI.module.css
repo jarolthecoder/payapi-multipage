@@ -1,0 +1,40 @@
+.main {
+  position: relative;
+  padding: 75px 0;
+}
+
+.innerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+
+.colLeft {
+  width: 50%;
+}
+
+.colRight {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 2rem;
+}
+
+.textContent {
+  max-width: 445px;
+  margin-bottom: 2.25rem;
+}
+
+.illustration {
+  margin-left: -50px;
+  filter: drop-shadow(25px 25px 20px #1b262f1f);
+}
+
+.backgoundPatternImg {
+  position: absolute;
+  top: -100px;
+  right: -22.5%;
+  z-index: -1;
+}

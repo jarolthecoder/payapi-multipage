@@ -1,9 +1,11 @@
+import { Plans } from "./sections"
 
 const Pricing = () => {
   return (
-    <div>
-      
-    </div>
+    <main>
+      <h2>Pricing</h2>
+      <Plans />
+    </main>
   )
 }
 

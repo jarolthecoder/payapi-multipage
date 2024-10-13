@@ -1,11 +1,25 @@
-
+import { Hero } from "@/components/layout";
+import {
+  CultureAndPeople,
+  Stats,
+  TeamMembers,
+  VisionAndBusiness,
+} from "./sections";
+import styles from "./About.module.css";
 
 const About = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <main>
+      <Hero
+        className={styles.hero}
+        title="We empower innovators by delivering access to the financial system"
+      />
+      <VisionAndBusiness />
+      <TeamMembers />
+      <Stats />
+      <CultureAndPeople />
+    </main>
+  );
+};
 
-export default About
+export default About;

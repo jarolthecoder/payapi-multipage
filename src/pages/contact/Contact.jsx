@@ -1,9 +1,10 @@
+import { Hero } from "@/components/layout"
 
 const Contact = () => {
   return (
-    <div>
-      
-    </div>
+    <main>
+      <Hero title="Submit a help request and we’ll get in touch shortly." />
+    </main>
   )
 }
 

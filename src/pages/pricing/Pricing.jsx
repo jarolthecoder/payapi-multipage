@@ -1,9 +1,10 @@
-import { Hero, Plans } from "./sections"
+import { Hero } from "@/components/layout"
+import { Plans } from "./sections"
 
 const Pricing = () => {
   return (
     <main>
-      <Hero />
+      <Hero title="Pricing" />
       <Plans />
     </main>
   )

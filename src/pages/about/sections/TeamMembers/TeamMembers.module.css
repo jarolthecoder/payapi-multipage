@@ -1,0 +1,18 @@
+.main {
+  padding: 75px 0;
+  position: relative;
+}
+
+.teamImgHolder {
+  height: 500px;
+  background: url("../../../../assets/about/desktop/image-team-members.jpg") no-repeat
+    center center;
+  background-size: cover;
+}
+
+.backgoundPatternImg {
+  position: absolute;
+  top: -50px;
+  left: -550px;
+  z-index: -1;
+}

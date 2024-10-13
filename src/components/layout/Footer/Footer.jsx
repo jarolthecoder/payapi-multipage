@@ -1,8 +1,7 @@
-import { Logo } from "@/components/ui";
+import { BackgroundPattern, Logo } from "@/components/ui";
 import { Navbar } from "@/components/shared";
 import { Container } from "..";
 import styles from "./Footer.module.css";
-import bgPatternCircleImg from "../../../assets/shared/desktop/bg-pattern-circle.svg";
 
 export const Footer = () => {
   return (
@@ -45,12 +44,7 @@ export const Footer = () => {
           </a>
         </div>
       </Container>
-      {/* Pattern Image */}
-      <img
-        className={styles.backgoundPatternImg}
-        src={bgPatternCircleImg}
-        alt="Decorative background image"
-      />
+      <BackgroundPattern className={styles.backgoundPatternImg} />
     </footer>
   );
 };

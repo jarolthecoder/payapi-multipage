@@ -2,7 +2,7 @@ import { Container } from "@/components/layout";
 import { DemoField } from "@/components/shared";
 import styles from "./Hero.module.css";
 import phoneImg from "../../../../assets/home/desktop/illustration-phone-mockup.svg";
-import bgPatternCircleImg from "../../../../assets/shared/desktop/bg-pattern-circle.svg";
+import { BackgroundPattern } from "@/components/ui";
 
 export const Hero = () => {
   return (
@@ -29,12 +29,7 @@ export const Hero = () => {
             className={styles.phoneIllustrationImg}
           />
         </figure>
-        {/* Pattern Image */}
-        <img
-          className={styles.backgoundPatternImg}
-          src={bgPatternCircleImg}
-          alt="Decorative background pattern"
-        />
+        <BackgroundPattern className={styles.backgoundPatternImg} />
       </Container>
     </section>
   );

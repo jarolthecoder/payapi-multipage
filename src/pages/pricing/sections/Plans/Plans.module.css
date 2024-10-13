@@ -1,0 +1,60 @@
+.main {
+  padding: 75px 0 25px 0;
+}
+
+.innerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.planDetails {
+  text-align: left;
+}
+
+.planName,
+.price {
+  font-family: "DM Serif Display", serif;
+}
+
+.price,
+.featureName {
+  color: var(--clr-secondary-main);
+}
+
+.planName {
+  font-size: 2rem;
+  font-weight: var(--fw-regular);
+  line-height: 2.5rem;
+  color: var(--clr-primary);
+  margin-bottom: 1rem;
+}
+
+.price {
+  margin-top: 2rem;
+  font-size: 3.5rem;
+}
+
+.featuresList {
+  margin: 3rem 0 1.5rem 0;
+  padding: 2rem 0;
+  border-top: 1px solid #36536b40;
+  border-bottom: 1px solid #36536b40;
+}
+
+.feature {
+  position: relative;
+}
+
+.feature svg {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.featureName {
+  font-size: 1rem;
+  margin-left: 2rem;
+}

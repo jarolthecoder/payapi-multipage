@@ -18,13 +18,24 @@
   background: var(--clr-primary-active);
 }
 
-.btnSecondary {
+.btnSecondaryLight {
   background: #ffff0000;
   color: var(--clr-water-white);
   border: 1px solid var(--clr-water-white);
 }
 
-.btnSecondary:hover {
+.btnSecondaryLight:hover {
   background: var(--clr-water-white);
   color: var(--clr-secondary-dark);
+}
+
+.btnSecondaryDark {
+  background: #ffff0000;
+  color: var(--clr-secondary-main);
+  border: 1px solid var(--clr-secondary-main);
+}
+
+.btnSecondaryDark:hover {
+  color: var(--clr-water-white);
+  background: var(--clr-secondary-main);
 }

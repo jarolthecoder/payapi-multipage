@@ -1,7 +1,6 @@
 import { Container } from "@/components/layout";
 import { PartnersLogosGrid } from "./PartnersLogosGrid";
-import { ButtonSecondary } from "@/components/ui";
-import bgPatternCircleImg from "../../../../assets/shared/desktop/bg-pattern-circle.svg";
+import { BackgroundPattern, ButtonSecondary } from "@/components/ui";
 import styles from "./WhoWeWorkWith.module.css";
 
 export const WhoWeWorkWith = () => {
@@ -16,17 +15,12 @@ export const WhoWeWorkWith = () => {
             developers with the tools they need to create easy and accessible
             experiences for their users.
           </p>
-          <ButtonSecondary>About Us</ButtonSecondary>
+          <ButtonSecondary color="light">About Us</ButtonSecondary>
         </div>
         <div className={styles.colRight}>
           <PartnersLogosGrid />
         </div>
-        {/* Pattern Image */}
-        <img
-          className={styles.backgoundPatternImg}
-          src={bgPatternCircleImg}
-          alt="Decorative background pattern"
-        />
+        <BackgroundPattern className={styles.backgoundPatternImg} />
       </Container>
     </section>
   );

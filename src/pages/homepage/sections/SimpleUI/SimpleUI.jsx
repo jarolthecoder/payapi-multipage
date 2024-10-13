@@ -1,7 +1,7 @@
 import { Container } from "@/components/layout";
 import styles from "./SimpleUXUI.module.css";
 import simpleUIImg from "../../../../assets/home/desktop/illustration-simple-ui.svg";
-import bgPatternCircleImg from "../../../../assets/shared/desktop/bg-pattern-circle.svg";
+import { BackgroundPattern } from "@/components/ui";
 
 export const SimpleUI = () => {
   return (
@@ -22,12 +22,7 @@ export const SimpleUI = () => {
           />
         </figure>
       </Container>
-      {/* Pattern Image */}
-      <img
-        className={styles.backgoundPatternImg}
-        src={bgPatternCircleImg}
-        alt="Decorative background pattern"
-      />
+      <BackgroundPattern className={styles.backgoundPatternImg} />
     </section>
   );
 };

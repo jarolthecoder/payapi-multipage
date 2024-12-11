@@ -1,7 +1,7 @@
 import { Container, Hero } from "@/components/layout";
+import { PartnersLogosGrid } from "@/components/shared";
 import { HelpRequestForm } from "./components";
 import styles from "./Contact.module.css";
-import { PartnersLogosGrid } from "@/components/shared";
 
 const Contact = () => {
   return (

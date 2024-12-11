@@ -1,5 +1,5 @@
-import { useState } from "react";
 import { ButtonSecondary, TextField } from "@/components/ui";
+import { useState } from "react";
 import styles from "./HelpRequestForm.module.css";
 
 export const HelpRequestForm = () => {
@@ -26,14 +26,6 @@ export const HelpRequestForm = () => {
 
   const validateFields = (data) => {
     const scopeErrors = {};
-
-    // Return Object
-    // Object.keys(data).forEach((key) => {
-    //   if (formState[key].length === 0)
-    //     scopeErrors[key] = {
-    //         errorMessage: `${key} field is required`,
-    //     };
-    // });
     Object.keys(data).forEach((key) => {
       if (formState[key].length === 0)
         scopeErrors[key] = {

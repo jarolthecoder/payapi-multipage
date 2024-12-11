@@ -1,0 +1,48 @@
+.field {
+  border-bottom: 1px solid var(--clr-secondary-main);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.field label {
+  color: var(--clr-secondary-main);
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  z-index: -1;
+}
+
+.field label.labelHidden {
+ opacity: 0;
+}
+
+.field input,
+.field textarea {
+  padding: 0px 20px 20px 20px;
+  background: #ffff0000;
+}
+
+.field textarea {
+  border: none;
+  resize: none;
+}
+
+.field.error {
+  border-color: var(--clr-error);
+}
+
+.field.error label {
+  opacity: 1;
+}
+
+.field.error label,
+.errorMessage {
+    color: var(--clr-error);
+}
+
+.errorMessage {
+  font-size: 11px;
+  margin-left: 20px;
+}

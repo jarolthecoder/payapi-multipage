@@ -1,0 +1,19 @@
+.hero {
+  padding-bottom: 3rem;
+}
+.hero h1 {
+  max-width: 655px;
+}
+
+.sectionContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+
+.partnersContainer h4 {
+  padding-left: 2rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.75;
+}

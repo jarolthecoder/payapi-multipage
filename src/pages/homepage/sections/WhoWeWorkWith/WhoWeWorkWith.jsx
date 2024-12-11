@@ -1,7 +1,7 @@
 import { Container } from "@/components/layout";
-import { PartnersLogosGrid } from "./PartnersLogosGrid";
 import { BackgroundPattern, ButtonSecondary } from "@/components/ui";
 import styles from "./WhoWeWorkWith.module.css";
+import { PartnersLogosGrid } from "@/components/shared";
 
 export const WhoWeWorkWith = () => {
   return (

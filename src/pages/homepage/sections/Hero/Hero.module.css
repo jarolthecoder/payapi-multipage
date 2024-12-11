@@ -47,3 +47,48 @@
   right: -27%;
   z-index: -1;
 }
+
+/** ====== Media Queries ====== **/
+/** Tablet **/
+@media screen and (max-width: 1000px) {
+  .main {
+    position: initial;
+    padding-bottom: 100px;
+  }
+  
+  .innerContainer {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .colLeft,
+  .colRight {
+    width: 100%;
+  }
+
+  .colLeft {
+    padding-top: 0;
+  }
+
+  .title {
+    max-width: 546px;
+    margin: auto;
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .demoFieldContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .backgoundPatternImg {
+    top: -675px;
+    right: 0;
+    left: 50%;
+    width: 980px;
+    max-width: 980px;
+    transform: translate(-50%);
+  }
+}

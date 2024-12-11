@@ -11,6 +11,6 @@ export const BackgroundPattern = ({ className }) => {
   );
 };
 
-BackgroundPattern.propTypes ={
-  className: PropTypes.string
-}
+BackgroundPattern.propTypes = {
+  className: PropTypes.string,
+};

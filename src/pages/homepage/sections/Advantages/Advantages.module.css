@@ -21,3 +21,16 @@
 .advantageIcon {
   margin-bottom: 2rem;
 }
+
+
+/** ====== Media Queries ====== **/
+/** Tablet **/
+@media screen and (max-width: 1000px) {
+  .main {
+    padding: 0;
+  }
+
+  .innerContainer {
+    gap: 1rem;
+  }
+}

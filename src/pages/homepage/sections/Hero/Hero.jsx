@@ -6,7 +6,7 @@ import { BackgroundPattern } from "@/components/ui";
 
 export const Hero = () => {
   return (
-    <section>
+    <section className={styles.main}>
       <Container className={styles.innerContainer}>
         <div className={styles.colLeft}>
           <h1 className={styles.title}>

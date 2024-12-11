@@ -2,7 +2,7 @@
   position: relative;
   background-color: var(--clr-secondary-dark);
   overflow: hidden;
-  padding: 120px 0;
+  padding: 100px 0;
 }
 
 .innerContainer {
@@ -58,4 +58,42 @@
 
 .logosGrid svg {
   overflow: visible;
+}
+
+/** ====== Media Queries ====== **/
+/** Tablet **/
+@media screen and (max-width: 1000px) {
+  .main {
+    padding: 70px 0;
+  }
+
+  .innerContainer {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .colLeft,
+  .colRight {
+    width: 100%;
+  }
+
+  .textContent {
+    margin: auto auto 2.25rem auto;
+  }
+
+  .logosGrid {
+    column-gap: 0;
+    row-gap: 0;
+    padding-top: 0;
+  }
+
+  .backgoundPatternImg {
+    top: -600px;
+    right: 0;
+    left: 50%;
+    width: 780px;
+    max-width: 780px;
+    transform: translate(-50%);
+  }
 }

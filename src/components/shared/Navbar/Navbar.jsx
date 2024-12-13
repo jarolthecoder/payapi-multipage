@@ -1,7 +1,8 @@
-import { Link } from "react-router-dom";
-import styles from "./Navbar.module.css";
+import { navLinks } from "@/lib";
 import classNames from "classnames";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
+import styles from "./Navbar.module.css";
 
 export const Navbar = ({ color = "dark" }) => {
   const navLinkClasses = classNames(
@@ -29,9 +30,3 @@ export const Navbar = ({ color = "dark" }) => {
 Navbar.propTypes = {
   color: PropTypes.oneOf(["dark", "light"])
 }
-
-const navLinks = [
-  { label: "Pricing", path: "/pricing" },
-  { label: "About", path: "/about" },
-  { label: "Contact", path: "/contact" },
-];

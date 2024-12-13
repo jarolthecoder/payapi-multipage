@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: flex-start;
   position: relative;
+  /* overflow-x: hidden; */
 }
 
 .colLeft {
@@ -55,7 +56,7 @@
     position: initial;
     padding-bottom: 100px;
   }
-  
+
   .innerContainer {
     flex-direction: column-reverse;
     align-items: center;
@@ -71,11 +72,14 @@
     padding-top: 0;
   }
 
+  .phoneIllustrationImg {
+     margin-left: 6vw;
+  }
+
   .title {
     max-width: 546px;
     margin: auto;
     text-align: center;
-    font-size: 3rem;
   }
 
   .demoFieldContainer {
@@ -89,6 +93,21 @@
     left: 50%;
     width: 980px;
     max-width: 980px;
+    transform: translate(-50%);
+  }
+}
+/** Mobile **/
+@media screen and (max-width: 719px) {
+  .phoneIllustrationImg {
+    margin-left: 8vw;
+  }
+
+  .backgoundPatternImg {
+    top: 0px;
+    right: 0;
+    left: 50%;
+    width: 100%;
+    max-width: 100%;
     transform: translate(-50%);
   }
 }

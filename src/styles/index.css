@@ -147,7 +147,6 @@ h6 {
   font-weight: var(--fw-regular);
 }
 
-
 p {
   color: var(--clr-secondary-light);
 }
@@ -165,4 +164,40 @@ button {
 
 a {
   transition: color var(--ease-regular);
+}
+
+/** ====== Media Queries ====== **/
+/** Tablet **/
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    /* line-height: 6.5rem; */
+  }
+
+  h3 {
+    font-size: 1.25rem;
+    line-height: 3rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  p {
+    font-size: 0.938rem;
+    line-height: 1.85rem;
+  }
 }

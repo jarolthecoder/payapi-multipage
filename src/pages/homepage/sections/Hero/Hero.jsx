@@ -1,8 +1,8 @@
 import { Container } from "@/components/layout";
 import { DemoField } from "@/components/shared";
-import styles from "./Hero.module.css";
-import phoneImg from "../../../../assets/home/desktop/illustration-phone-mockup.svg";
 import { BackgroundPattern } from "@/components/ui";
+import phoneImg from "../../../../assets/home/desktop/illustration-phone-mockup.svg";
+import styles from "./Hero.module.css";
 
 export const Hero = () => {
   return (

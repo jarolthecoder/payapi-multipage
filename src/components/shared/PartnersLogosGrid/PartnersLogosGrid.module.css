@@ -14,3 +14,20 @@
 .logosGrid svg {
   overflow: visible;
 }
+
+/** ====== Media Queries ====== **/
+/** Tablet **/
+@media screen and (max-width: 1000px) {
+  .logosGrid {
+    padding: 1rem 0 0 0;
+  }
+}
+/** Mobile **/
+@media screen and (max-width: 530px) {
+  .logosGrid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+  }
+}

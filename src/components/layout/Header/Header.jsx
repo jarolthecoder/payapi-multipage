@@ -6,7 +6,7 @@ import styles from "./Header.module.css";
 
 export const Header = () => {
   const [isMobileSize, setIsMobileSize] = useState(window.innerWidth <= 720); // Initalize here to prevent flickers on window load
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(true);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const handleMobileMenu = () => {
     setIsMobileMenuOpen((prev) => !prev);

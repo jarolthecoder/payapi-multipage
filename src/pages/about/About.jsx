@@ -4,7 +4,7 @@ import {
   Stats,
   TeamMembers,
   VisionAndBusiness,
-} from "./sections";
+} from "./components";
 import styles from "./About.module.css";
 
 const About = () => {

@@ -1,4 +1,4 @@
-import { Advantages, EasyToImplement, Hero, SimpleUI, WhoWeWorkWith } from "./sections";
+import { Advantages, EasyToImplement, Hero, SimpleUI, WhoWeWorkWith } from "./components";
 
 const Homepage = () => {
   return (

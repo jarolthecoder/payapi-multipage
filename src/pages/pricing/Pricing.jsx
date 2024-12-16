@@ -1,5 +1,5 @@
 import { Hero } from "@/components/layout"
-import { Plans } from "./sections"
+import { Plans } from "./components"
 
 const Pricing = () => {
   return (

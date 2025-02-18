@@ -18,3 +18,10 @@
     gap: 1rem;
   }
 }
+
+/** Mobile **/
+@media screen and (max-width: 719px) {
+ .main h2 {
+    font-size: 2rem;
+  }
+}

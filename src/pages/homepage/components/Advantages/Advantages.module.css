@@ -34,3 +34,15 @@
     gap: 1rem;
   }
 }
+
+/** Mobile **/
+@media screen and (max-width: 719px) {
+  .innerContainer {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .advantageBox h3 {
+    font-size: 1.125rem;
+  }
+}

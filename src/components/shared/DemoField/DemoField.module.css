@@ -18,3 +18,37 @@
   color: var(--clr-secondary-main);
   font-weight: var(--fw-bold);
 }
+
+/** ====== Media Queries ====== **/
+/** Tablet **/
+@media screen and (max-width: 1000px) {
+}
+
+/** Mobile **/
+@media screen and (max-width: 719px) {
+  .main {
+    height: auto;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .demoInput {
+    width: 100%;
+    max-width: 445px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: var(--clr-water-white);
+    box-shadow: 10px 10px 25px -10px #36536b41;
+    padding-left: 1.5rem;
+  }
+
+  .demoBtn {
+    width: 100%;
+  }
+
+  .innerContainer {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

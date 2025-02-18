@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import styles from "./Navbar.module.css";
 
-export const Navbar = ({ color = "dark" }) => {
+export const Navbar = ({ color = "dark", className }) => {
   const navLinkClasses = classNames(
     styles.link,
     {
@@ -14,7 +14,7 @@ export const Navbar = ({ color = "dark" }) => {
   );
 
   return (
-    <nav>
+    <nav className={className}>
       <ul className={styles.linkList}>
         {navLinks.map((link) => (
           <li key={link.label} className={navLinkClasses}>
@@ -28,5 +28,6 @@ export const Navbar = ({ color = "dark" }) => {
 
 // Prop Types 
 Navbar.propTypes = {
-  color: PropTypes.oneOf(["dark", "light"])
+  color: PropTypes.oneOf(["dark", "light"]),
+  className: PropTypes.string,
 }

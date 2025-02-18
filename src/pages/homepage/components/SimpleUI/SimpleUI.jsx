@@ -10,7 +10,7 @@ export const SimpleUI = () => {
         <div className={styles.colLeft}>
           <h2 className={styles.title}>Simple UI & UX</h2>
           <p className={styles.textContent}>
-            Our pre-built form is easy to integrate in your app or website’s
+            Our pre-built form is easy to integrate in your app or website&apos;s
             checkout flow and designed to optimize conversion.
           </p>
         </div>

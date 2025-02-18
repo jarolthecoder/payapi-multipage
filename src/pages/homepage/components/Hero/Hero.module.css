@@ -96,6 +96,7 @@
     transform: translate(-50%);
   }
 }
+
 /** Mobile **/
 @media screen and (max-width: 719px) {
   .phoneIllustrationImg {

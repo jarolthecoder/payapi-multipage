@@ -5,7 +5,7 @@ export const DemoField = () => {
     <form className={styles.main}>
       <div className={styles.innerContainer}>
         <input className={styles.demoInput} type="email" placeholder="Enter email address" />
-        <ButtonPrimary>Schedule a Demo</ButtonPrimary>
+        <ButtonPrimary className={styles.demoBtn}>Schedule a Demo</ButtonPrimary>
       </div>
     </form>
   );

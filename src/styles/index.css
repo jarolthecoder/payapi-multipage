@@ -30,6 +30,7 @@
 
 body {
   -webkit-font-smoothing: antialiased;
+  background-color: var(--clr-bg-main);
 }
 
 img,

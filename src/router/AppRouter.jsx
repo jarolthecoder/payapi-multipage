@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { lazy, Suspense } from "react";
+import { PageLoader } from "@/components/ui";
 
 export const AppRouter = () => {
   return (
@@ -8,7 +9,13 @@ export const AppRouter = () => {
         <Route
           key={route.id}
           path={route.path}
-          element={<Suspense>{route.component}</Suspense>}
+          element={
+            route.lazy ? (
+              <Suspense fallback={<PageLoader />}>{route.component}</Suspense>
+            ) : (
+              route.component
+            )
+          }
         />
       ))}
     </Routes>
@@ -21,8 +28,8 @@ const Pricing = lazy(() => import("../pages/pricing/Pricing"));
 const Contact = lazy(() => import("../pages/contact/Contact"));
 
 const routesMap = [
-  { id: "home", path: "/", component: <Homepage /> },
-  { id: "about", path: "about", component: <About /> },
-  { id: "pricing", path: "Pricing", component: <Pricing /> },
-  { id: "contact", path: "Contact", component: <Contact /> },
+  { id: "home", path: "/", component: <Homepage />, lazy: false },
+  { id: "about", path: "about", component: <About />, lazy: true },
+  { id: "pricing", path: "Pricing", component: <Pricing />, lazy: true },
+  { id: "contact", path: "Contact", component: <Contact />, lazy: true },
 ];

@@ -50,8 +50,8 @@
 }
 
 /** ====== Media Queries ====== **/
-/** Tablet **/
-@media screen and (max-width: 1000px) {
+/** Mobile **/
+@media screen and (max-width: 719px) {
   .main {
     height: auto;
     padding: 2rem 0;
@@ -66,10 +66,7 @@
     flex-direction: column;
     gap: 2rem;
   }
-}
 
-/** Mobile **/
-@media screen and (max-width: 719px) {
   .footerNavigation ul {
     margin: 1rem 0;
     flex-direction: column;

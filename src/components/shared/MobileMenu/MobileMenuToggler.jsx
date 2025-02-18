@@ -1,11 +1,12 @@
+import { useAppContext } from "@/context/AppProvider";
 import styles from "./MobileMenu.module.css";
-import PropTypes from "prop-types";
 
-export const MobileMenuToggler = ({ onClick, isMobileMenuOpen }) => {
+export const MobileMenuToggler = () => {
+  const { isMobileMenuOpen, toggleMobileMenu } = useAppContext();
   return (
     <button
       type="button"
-      onClick={onClick}
+      onClick={toggleMobileMenu}
       className={styles.mobileMenuToggler}
     >
       {isMobileMenuOpen ? (
@@ -25,10 +26,4 @@ export const MobileMenuToggler = ({ onClick, isMobileMenuOpen }) => {
       )}
     </button>
   );
-};
-
-// PropTypes
-MobileMenuToggler.propTypes = {
-  onClick: PropTypes.func.isRequired,
-  isMobileMenuOpen: PropTypes.bool.isRequired
 };

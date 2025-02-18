@@ -1,10 +1,11 @@
 import { ButtonPrimary } from "@/components/ui";
 import { navLinks } from "@/lib";
-import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import styles from "./MobileMenu.module.css";
+import { useAppContext } from "@/context/AppProvider";
 
-export const MobileMenu = ({ handleMobileMenu }) => {
+export const MobileMenu = () => {
+  const { toggleMobileMenu } = useAppContext();
   return (
     <div className={styles.main}>
       <div className={styles.innerContainer}>
@@ -16,7 +17,7 @@ export const MobileMenu = ({ handleMobileMenu }) => {
                 key={link.label}
                 role="button"
                 className={styles.navLink}
-                onClick={handleMobileMenu}
+                onClick={toggleMobileMenu}
               >
                 <Link to={link.path}>{link.label}</Link>
               </li>
@@ -29,8 +30,4 @@ export const MobileMenu = ({ handleMobileMenu }) => {
       </div>
     </div>
   );
-};
-
-MobileMenu.propTypes = {
-  handleMobileMenu: PropTypes.func.isRequired,
 };

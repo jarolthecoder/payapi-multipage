@@ -5,19 +5,18 @@
   width: 100vw;
   height: 100dvh;
   z-index: 3;
-  /* background-color: #020202; */
 }
 
 .innerContainer {
   position: absolute;
   top: 0;
   right: 0;
-  width: 300px;
+  width: 83.75%;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 1.5rem;
+  padding: 0 1.25rem;
   background: var(--clr-secondary-dark);
 }
 
@@ -30,7 +29,7 @@
 .innerContainer hr {
   width: 100%;
   border: 1px solid var(--clr-water-white);
-  margin-top: 100px;
+  margin-top: 90px;
   opacity: 0.15;
 }
 
@@ -54,4 +53,12 @@
 
 .scheduleDemoBtn {
   width: 100%;
+}
+
+.backgoundPatternImg {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 250%;
+  z-index: 1;
 }

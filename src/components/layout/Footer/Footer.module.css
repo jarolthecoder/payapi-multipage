@@ -51,7 +51,7 @@
 
 /** ====== Media Queries ====== **/
 /** Mobile **/
-@media screen and (max-width: 719px) {
+@media screen and (max-width: 720px) {
   .main {
     height: auto;
     padding: 2rem 0;
@@ -75,6 +75,8 @@
   .backgoundPatternImg {
     top: 0;
     right: 50%;
-    transform: translate(50%, 50%);
+    width: 728px;
+    max-width: 728px;
+    transform: translate(50%, 26%);
   }
 }

@@ -1,6 +1,6 @@
 .main {
   position: relative;
-  padding: 75px 0;
+  padding: 75px 0 15px 0;
 }
 
 .innerContainer {
@@ -22,7 +22,6 @@
   margin-bottom: 2rem;
 }
 
-
 /** ====== Media Queries ====== **/
 /** Tablet **/
 @media screen and (max-width: 1000px) {
@@ -36,7 +35,7 @@
 }
 
 /** Mobile **/
-@media screen and (max-width: 719px) {
+@media screen and (max-width: 720px) {
   .innerContainer {
     flex-direction: column;
     gap: 4rem;

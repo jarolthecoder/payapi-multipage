@@ -3,8 +3,11 @@ import { DemoField } from "@/components/shared";
 import { BackgroundPattern } from "@/components/ui";
 import phoneImg from "../../../../assets/home/desktop/illustration-phone-mockup.svg";
 import styles from "./Hero.module.css";
+import { useAppContext } from "@/context/AppProvider";
 
 export const Hero = () => {
+  const { isMobileMenuOpen } = useAppContext();
+
   return (
     <section className={styles.main}>
       <Container className={styles.innerContainer}>
@@ -29,7 +32,12 @@ export const Hero = () => {
             className={styles.phoneIllustrationImg}
           />
         </figure>
-        <BackgroundPattern className={styles.backgoundPatternImg} />
+        <BackgroundPattern
+          className={styles.backgoundPatternImg}
+          style={{
+            zIndex: isMobileMenuOpen ? 3 : -1,
+          }}
+        />
       </Container>
     </section>
   );

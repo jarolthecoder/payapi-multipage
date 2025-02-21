@@ -1,4 +1,4 @@
-export * from './Hero/Hero'
+export * from './HomeHero/HomeHero'
 export * from './WhoWeWorkWith/WhoWeWorkWith'
 export * from './EasyToImplement/EasyToImplement'
 export * from './SimpleUI/SimpleUI'

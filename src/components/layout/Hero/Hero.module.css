@@ -13,3 +13,20 @@
   right: -80px;
   z-index: -1;
 }
+
+
+/** ====== Media Queries ====== **/
+/** Tablet **/
+@media screen and (max-width: 1000px) {
+  .title {
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+
+/** Mobile **/
+@media screen and (max-width: 720px) {
+  .title {
+    font-size: 2rem;
+  }
+}

@@ -18,8 +18,7 @@
   font-family: "DM Serif Display", serif;
 }
 
-.price,
-.featureName {
+.price {
   color: var(--clr-secondary-main);
 }
 
@@ -36,25 +35,24 @@
   font-size: 3.5rem;
 }
 
-.featuresList {
-  margin: 3rem 0 1.5rem 0;
-  padding: 2rem 0;
-  border-top: 1px solid #36536b40;
-  border-bottom: 1px solid #36536b40;
-}
+/** ====== Media Queries ====== **/
+/** Mobile **/
+@media screen and (max-width: 720px) {
+  .innerContainer {
+    flex-direction: column;
+  }
 
-.feature {
-  position: relative;
-}
+  .planDetails {
+    text-align: center;
+  }
 
-.feature svg {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-}
+  .planDescription {
+    visibility: hidden;
+  }
 
-.featureName {
-  font-size: 1rem;
-  margin-left: 2rem;
+  .plan {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
 }

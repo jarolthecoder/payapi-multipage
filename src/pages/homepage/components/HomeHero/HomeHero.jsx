@@ -2,10 +2,10 @@ import { Container } from "@/components/layout";
 import { DemoField } from "@/components/shared";
 import { BackgroundPattern } from "@/components/ui";
 import phoneImg from "../../../../assets/home/desktop/illustration-phone-mockup.svg";
-import styles from "./Hero.module.css";
+import styles from "./HomeHero.module.css";
 import { useAppContext } from "@/context/AppProvider";
 
-export const Hero = () => {
+export const HomeHero = () => {
   const { isMobileMenuOpen } = useAppContext();
 
   return (

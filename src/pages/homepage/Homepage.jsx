@@ -1,7 +1,7 @@
 import {
   Advantages,
   EasyToImplement,
-  Hero,
+  HomeHero,
   SimpleUI,
   WhoWeWorkWith,
 } from "./components";
@@ -9,7 +9,7 @@ import {
 const Homepage = () => {
   return (
     <main>
-      <Hero />
+      <HomeHero />
       <WhoWeWorkWith />
       <EasyToImplement />
       <SimpleUI />

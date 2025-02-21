@@ -1,4 +1,5 @@
 import { Container } from "@/components/layout";
+import { Stat } from "./Stat";
 import styles from "./Stats.module.css";
 
 export const Stats = () => {
@@ -6,10 +7,7 @@ export const Stats = () => {
     <section>
       <Container className={styles.innerContainer}>
         {statsData.map(({ title, stat }) => (
-          <div key={title} className={styles.statContainer}>
-            <h3 className={styles.statTitle}>{title}</h3>
-            <p className={styles.statNumber}>{stat}</p>
-          </div>
+          <Stat key={title} title={title} stat={stat} />
         ))}
       </Container>
     </section>

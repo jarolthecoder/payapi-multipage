@@ -7,7 +7,7 @@ export const BackgroundPattern = ({ className, style }) => {
       className={className}
       src={bgPatternCircleImg}
       alt="Decorative background pattern"
-      style={style}
+      style={{ pointerEvents: "none", ...style }}
     />
   );
 };

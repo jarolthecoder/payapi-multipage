@@ -10,11 +10,13 @@ Check out the deployed application here: [PaiAPI Multi-Page Website](https://you
 - **React** – Component-based UI development  
 - **CSS Modules** – Scoped and modular styling  
 - **React Router** – For multi-page navigation  
+- **AOS Animations** - Smooth scrolling animation
 
 ## Features  
 - Multi-page layout with smooth navigation  
 - Modular and reusable React components  
 - Styled using CSS Modules for better maintainability  
+- **AOS animations** for an engaging user experience  
 
 ## Challenge Details  
 You can find the original **Frontend Mentor challenge** challenge [here](https://www.frontendmentor.io/challenges/payapi-multipage-website-FDLR1Y11e)  

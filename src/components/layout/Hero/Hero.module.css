@@ -14,7 +14,6 @@
   z-index: -1;
 }
 
-
 /** ====== Media Queries ====== **/
 /** Tablet **/
 @media screen and (max-width: 1000px) {
@@ -22,11 +21,20 @@
     font-size: 3rem;
     text-align: center;
   }
+
+  .backgoundPatternImg {
+    right: -475px;
+  }
 }
 
 /** Mobile **/
 @media screen and (max-width: 700px) {
   .title {
     font-size: 2rem;
+  }
+
+  .backgoundPatternImg {
+    top: -92vw;
+    right: -50vw;
   }
 }

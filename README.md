@@ -3,6 +3,9 @@
 ## Overview  
 This is a [Frontend Mentor](https://www.frontendmentor.io/) challenge project where I built a **multi-page website** using **React** and **CSS Modules**. The goal of this project was to practice my **React frontend development** and **CSS styling skills** while following a real-world design challenge.  
 
+## Live Demo  
+Check out the deployed application here: [PaiAPI Multi-Page Website](https://your-deployed-app-link.com)  
+
 ## Technologies Used  
 - **React** – Component-based UI development  
 - **CSS Modules** – Scoped and modular styling  

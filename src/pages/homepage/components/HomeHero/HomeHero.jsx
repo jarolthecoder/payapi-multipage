@@ -29,6 +29,7 @@ export const HomeHero = () => {
           <img
             src={phoneImg}
             alt="Smart-phone Illustration"
+            data-aos="fade-up"
             className={styles.phoneIllustrationImg}
           />
         </figure>

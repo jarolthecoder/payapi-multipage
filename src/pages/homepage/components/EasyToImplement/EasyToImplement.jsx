@@ -10,6 +10,7 @@ export const EasyToImplement = () => {
           <img
             src={easyToImplementImg}
             className={styles.illustration}
+            data-aos="fade-right"
             alt="Code Illustration"
           />
         </figure>

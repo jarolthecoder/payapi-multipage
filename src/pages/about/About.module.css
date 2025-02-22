@@ -5,3 +5,22 @@
 .hero h1 {
   max-width: 655px;
 }
+
+/** ====== Media Queries ====== **/
+/** Tablet **/
+@media screen and (max-width: 1000px) {
+  .hero h1 {
+    width: 100%;
+    max-width: 575px;
+    margin: auto;
+  }
+}
+
+/* * Mobile */
+@media screen and (max-width: 700px) {
+  .hero h1 {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+  }
+}

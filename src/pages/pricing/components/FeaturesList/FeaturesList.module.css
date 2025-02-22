@@ -29,7 +29,7 @@
 }
 
 /** Mobile **/
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 700px) {
  .feature {
     width: 140px;
     margin: 0 auto;

@@ -71,7 +71,7 @@
 }
 
 /** Mobile **/
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 700px) {
   .colRight {
     margin-top: -1rem;
     padding-left: 0;

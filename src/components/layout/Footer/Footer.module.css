@@ -1,5 +1,4 @@
 .main {
-  /* padding: 2rem 0; */
   height: 100px;
   display: flex;
   justify-content: space-between;
@@ -21,7 +20,6 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 4rem;
 }
 
 .colLeft {
@@ -51,7 +49,7 @@
 
 /** ====== Media Queries ====== **/
 /** Mobile **/
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 575px) {
   .main {
     height: auto;
     padding: 2rem 0;

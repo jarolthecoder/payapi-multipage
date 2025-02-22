@@ -20,7 +20,7 @@
 
 /** ====== Media Queries ====== **/
 /** Mobile **/
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 700px) {
   .main {
     padding: 5px 0 0 0;
   }

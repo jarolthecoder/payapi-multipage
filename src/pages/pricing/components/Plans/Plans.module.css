@@ -9,6 +9,10 @@
   gap: 2rem;
 }
 
+.plan {
+  width: 100%
+}
+
 .planDetails {
   text-align: left;
 }
@@ -37,7 +41,7 @@
 
 /** ====== Media Queries ====== **/
 /** Mobile **/
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 700px) {
   .innerContainer {
     flex-direction: column;
   }

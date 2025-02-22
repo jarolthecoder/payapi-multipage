@@ -19,7 +19,7 @@
 
 /** ====== Media Queries ====== **/
 /** Tablet Small **/
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 700px) {
   .colLeft {
     justify-content: space-between;
     width: 100%;

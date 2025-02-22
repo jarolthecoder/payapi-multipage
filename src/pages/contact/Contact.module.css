@@ -1,6 +1,7 @@
 .hero {
   padding-bottom: 3rem;
 }
+
 .hero h1 {
   max-width: 655px;
 }
@@ -21,6 +22,12 @@
 /** ====== Media Queries ====== **/
 /** Tablet **/
 @media screen and (max-width: 1000px) {
+  .hero h1 {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+  }
+
   .innerContainer {
     flex-direction: column;
   }
@@ -34,7 +41,13 @@
 }
 
 /* * Mobile */
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 700px) {
+  .hero h1 {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+  }
+
   .partnersContainer h4 {
     width: 100%;
   }

@@ -11,7 +11,7 @@ const Contact = () => {
         className={styles.hero}
       />
       <section>
-        <Container className={styles.sectionContainer}>
+        <Container className={styles.innerContainer}>
           <HelpRequestForm />
           <div className={styles.partnersContainer}>
             <h4>Join the thousands of innovators already building with us</h4>

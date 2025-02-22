@@ -5,7 +5,7 @@
   max-width: 655px;
 }
 
-.sectionContainer {
+.innerContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,6 +14,28 @@
 
 .partnersContainer h4 {
   padding-left: 2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   opacity: 0.75;
+}
+
+/** ====== Media Queries ====== **/
+/** Tablet **/
+@media screen and (max-width: 1000px) {
+  .innerContainer {
+    flex-direction: column;
+  }
+
+  .partnersContainer h4 {
+    text-align: center;
+    padding-left: 0;
+    width: 80%;
+    margin-inline: auto;
+  }
+}
+
+/* * Mobile */
+@media screen and (max-width: 720px) {
+  .partnersContainer h4 {
+    width: 100%;
+  }
 }
